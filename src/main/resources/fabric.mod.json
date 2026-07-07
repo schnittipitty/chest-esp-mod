@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "chestesp",
+  "version": "${version}",
+  "name": "Chest ESP",
+  "description": "Highlights chests, ender chests, barrels, and copper chests",
+  "authors": [
+    "paulb"
+  ],
+  "contact": {
+    "homepage": "https://github.com/schnittipitty/chest-esp-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/chestesp/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [],
+    "client": [
+      "de.paulb.chestesp.ChestEspClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
